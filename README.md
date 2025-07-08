@@ -21,14 +21,6 @@ Image-based digit recognition system with Braille translation, developed using a
 - Optimizer: Adam
 - Loss function: Sparse Categorical Crossentropy
 
-## 📂 Project Structure
-
-- `src/`: Source code (Python scripts)
-- `model/`: Saved trained model (`.h5`)
-- `data/`: Input dataset (Chars74k from Kaggle)
-- `utils/`: Preprocessing and Braille mapping
-- `report.pdf`: Full project report
-
 ## 📊 Results
 
 - Accuracy: 95.19%
