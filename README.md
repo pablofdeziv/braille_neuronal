@@ -13,6 +13,13 @@ Image-based digit recognition system with Braille translation, developed using a
 - Mapping of predicted digits to Braille characters
 - Performance evaluation with confusion matrix and per-class metrics
 
+## 🛠️ Technologies
+
+- Python (3.10)
+- Google Colab
+- TensorFlow / Keras
+- NumPy, Matplotlib
+
 ## 🧠 Model Architecture
 
 - Input: 28×28 grayscale images flattened into 784-length vectors
@@ -29,9 +36,17 @@ Image-based digit recognition system with Braille translation, developed using a
 
 ## ⚙️ How to Run
 
-1. Install dependencies (`tensorflow`, `numpy`, `matplotlib`)
-2. Run training (if needed) or load saved model
-3. Use `predict_image.py` to classify new digit images and print Braille output
+1. Open the main notebook in Google Colab.
+2. Run all cells to:
+   - Preprocess the dataset
+   - Train or load the saved model
+   - Predict digits and display their Braille equivalent
+3. You can also run locally:
+   ```bash
+   pip install tensorflow numpy matplotlib
+   python predict_image.py
+
+📌 This project was entirely developed and tested using Google Colab.
 
 ## 📝 License
 
